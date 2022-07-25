@@ -1,0 +1,247 @@
+/* Global */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap') */
+
+body {
+	box-sizing: border-bosx;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.p_small {
+	font-size: 14px;
+}
+.p_large {
+	font-size: 20px;
+}
+.bold_max {
+	font-weight: 700;
+}
+.bold_med {
+	font-weight: 500;
+}
+.boldheader {
+	font-weight: 900;
+}
+.spacing {
+	letter-spacing: 0.2rem;
+}
+.button {
+	background-color: #000000;
+	border-radius: 2px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 10px 25px;
+	text-decoration: none;
+	width: 150px;
+	text-align: center;
+	border: 1px solid black;
+}
+.button:hover {
+	background-color: #ffffff;
+	color: black;
+	border: 1px solid black;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+.logo {
+	width: 20px;
+}
+/* .logo a {display: inline-block;} */
+
+/* Header */
+header {
+	display: flex;
+	background-color: rgb(248, 250, 252);
+	height: 15vh;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+.profile {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.nav {
+	display: flex;
+	gap: 2rem;
+}
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover {
+	color: teal;
+}
+.login {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.login p {
+	color: teal;
+}
+.text_page1 p {
+	font-size: 18px;
+}
+
+/* Page1 */
+.page1 {
+	height: 85vh;
+	background-image: url('pic/ambition_img.jpg');
+	background-repeat: none;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding-top: 20vh;
+	margin-top: 15vh;
+}
+.text_page1 {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+}
+
+.text_page1 .button {
+	margin-top: 5%;
+}
+.chat {
+	width: 180px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+.chat:hover {
+	background-color: #000000;
+	color: rgb(214, 226, 215);
+	border: 1px solid black;
+}
+.chat i {
+	padding-right: 10px;
+}
+/* Page2: About */
+.about {
+	margin-top: 15vh;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+}
+
+hr {
+	width: 60px;
+	border: 1px solid black;
+}
+.about_container {
+	background-color: white;
+	width: 50vw;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 30px;
+	padding: 50px 50px 50px 15%;
+}
+
+.img_about {
+	width: 50vw;
+	background-image: url('./pic/profile.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Page3: Services*/
+.services {
+	height: 85vh;
+	margin-top: 15vh;
+	background-image: url('pic/bg_page3.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.services_text {
+	height: 12vh;
+	margin-top: 15px;
+	margin-left: 12vw;
+	padding: 50px 50px 0;
+}
+.top_box {
+	/* background-color: aliceblue; */
+	width: 800px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top_box a {
+	padding: 50px;
+}
+.non_dec {
+	text-decoration: none;
+	color: black;
+}
+.selected {
+	height: 40px;
+	border-bottom: 3px solid teal;
+	/* background-color: red; */
+}
+.not_selected {
+	height: 40px;
+	border-bottom: 1px solid rgb(160, 163, 167);
+	/* background-color: red; */
+}
+.container {
+	height: 65vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+}
+.container3 {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}
+.box {
+	width: 350px;
+	height: 400px;
+	background-color: white;
+	text-align: center;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px;
+}
+.box p {
+	line-height: 2.5rem;
+}
+
+.box .button:hover {
+	opacity: 70;
+	background-color: rgb(0, 0, 0, 0.8);
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/* .small_box {
+	height: 200px;
+} */
